@@ -1,0 +1,430 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c1d9f1; /* Light background color */
+}
+/* .clearfix{
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    padding: 0%;
+} */
+/* .container {
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    height: 100vh; 
+    width: 100%;
+    background-image: url('https://agrierp.com/blog/wp-content/uploads/2024/01/why-is-agriculture-important.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    justify-content: flex-start;
+    margin: 0%;
+    padding: 0%;
+}
+
+.welcome-message {
+    flex: 0 0 60%; 
+    padding: 20px;
+
+}
+
+.welcome-message h1 {
+    font-size: 50px;
+    color: #f4f4f4; 
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    text-align: start;
+}
+
+.welcome-message p {
+    font-size: 1.5em;
+    color: #f4f4f4;
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+/* .farmer-image {
+    flex: 0 0 40%; 
+    padding: 30px;
+    text-align: justify;
+    text-align: right;
+}
+
+.farmer-image img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+} */
+
+/* Container styling */
+.container {
+    position: relative;
+    width: 900vw;
+    height: 100vh;
+    overflow: hidden;
+    /* margin: 0px;
+    padding: 500px; */
+}
+
+/* Fullscreen background image styling */
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Styling for text on the image */
+.text-overlay {
+    position: absolute;
+    top: 30px; /* Adjust top spacing as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #0b2a61;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 4);
+}
+
+.welcome-message {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    color:#f1e4b8;
+    font-size: 30px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container1{
+    background-color: #ea8484;
+    padding:15px;
+    margin: auto;
+    
+}
+h1{
+    font-size: 50px;
+    color: #333333;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+/* p{
+    font-size: 30px;
+    text-align: center;
+} */
+.card-text{
+    text-align: center;
+    font-size: 20px;
+}
+.card-img-top{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* .container2{
+    display: flex;
+    padding: 120px;
+    justify-content: space-evenly;
+} */
+.container3{
+    display: flex;
+    background-color: #ea8484;
+    padding: 40px;
+    justify-content: space-evenly;
+}
+.container4{
+    background-color: #c1d9f1;
+    padding: 50px;
+    margin: 0%;
+}
+h3{
+    font-weight: 900;
+    font-size: 40px;
+}
+/* footer relater css */
+/* shud check n removme unnessary later */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-container {
+    margin-bottom: 20px;
+}
+
+.logo-container img {
+    max-width: 150px;
+    height: auto;
+}
+
+.nav-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+}
+
+.navbar-nav .nav-link .nav-link.active{
+    font-size: 18px;       
+    font-weight: bold;     
+    color: #ffffff;           
+    text-transform: capitalize; 
+    transition: color 2s ease; 
+}
+
+
+.social-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-links li {
+    margin: 0 5px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.copyright {
+    margin-top: 20px;
+}
+
+.btn-success{
+    align-items: center;
+    border-radius: 50%;
+}
+
+.btn{
+    border-radius: 50%;
+    align-items: center;
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* cards css */
+/* Container for the cards */
+.cards {
+    display: flex;                
+    flex-wrap: wrap;            
+    gap: 20px;                    
+    justify-content: center;      
+    padding: 20px;               
+}
+
+/* Styling for each card */
+.card {
+    width: 18rem;                 
+    border: 1px solid #ddd;       
+    border-radius: 8px;           
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;             
+    display: flex;               
+    flex-direction: column;      
+    background-color: #fff;      
+}
+
+/* Style for card images */
+.card-img-top {
+    width: 100%;                  /* Images fill the card width */
+    height: 230px;                /* Set a consistent height for all images */
+    object-fit: cover;            /* Crop images to fit the space neatly */
+}
+
+/* Styling for card body */
+.card-body {
+    padding: 50px;                /* Space inside the card around the text and button */
+    text-align: center;           /* Center-align the content inside the card */
+    flex: 1;                      /* Allow the card body to grow */
+    display: flex;                /* Flexbox to stack content */
+    flex-direction: column;       /* Stack text and button vertically */
+    justify-content: space-evenly; /* Space content evenly within the card body */
+}
+
+/* Text styling */
+.card-text {
+    font-size: 16px;              /* Font size of the card text */
+    color: #333;                  /* Color of the card text */
+    margin-bottom: 10px;          /* Space below the text */
+}
+
+/* Button styling */
+.btn {
+    padding: 8px 12px;            /* Padding inside the button */
+    border: none;                 /* Remove button border */
+    border-radius: 4px;           /* Rounded corners for the button */
+    font-size: 14px;              /* Font size of button text */
+    cursor: pointer;              /* Pointer cursor on hover */
+}
+
+/* Success button styling */
+.btn-success {
+    background-color: #28a745;    /* Green background color */
+    color: white;                 /* White text color */
+    transition: background-color 0.3s; /* Smooth transition effect on hover */
+}
+
+/* Button hover effect */
+.btn-success:hover {
+    background-color: #218838;    /* Darker green on hover */
+}
+
+/* Container styling */
+.container2 {
+    display: flex;                     /* Flexbox layout for horizontal alignment */
+    align-items: center;               /* Center items vertically */
+    padding: 200px;                     /* Padding around the container */
+    margin:  auto;                 /* Center the container with margin */
+    max-width: auto;                 /* Maximum width for better readability */
+    /* background: #f9f9f9;               Light background color */
+    border: 1px solid #ddd;            /* Light border */
+    border-radius: 10px;               /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    animation: fadeIn 1.5s ease;       /* Animation for fade-in effect */
+    background-image: url('https://t4.ftcdn.net/jpg/01/00/78/41/360_F_100784174_ff1eUStF2zEUkR7cAvvOjuP8PWY8tYpP.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Styling for the image */
+.container2 img {
+    width: 50%;                       /* Adjust width to fit the container */
+    max-width: 500px;                 /* Limit the maximum width */
+    border-radius: 8px;              /* Rounded corners for the image */
+    margin-right: 20px;              /* Space between the image and text */
+    object-fit: cover;               /* Ensure image covers the area without distortion */
+}
+
+/* Styling for the heading text */
+.container2 h2 {
+    font-size: 23px; 
+    font-weight: 900;               /* Font size for better readability */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.8;                /* Increase line height for better text spacing */
+    color: #0c0b0b;                     /* Dark text color */
+    text-align: right;                /* Align text to the left */
+    padding: 30px;                  /* Padding around the text */
+    background-color: rgba(252, 248, 248, 0.2);      /* White background for text area */
+    border-radius: 8px;              /* Slightly rounded corners for the text block */
+    box-shadow: 0 2px 4px rgba(187, 238, 153, 0.1); /* Subtle shadow */
+    transition: transform 4s ease; /* Smooth transition effect for animation */
+}
+
+/* Hover effect for the text */
+.container2 h2:hover {
+    transform: translateY(-5px);     /* Slight upward movement on hover */
+}
+
+/* Animation keyframes for fade-in effect */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;                  /* Start with transparent */
+        transform: translateY(20px); /* Start slightly below */
+    }
+    100% {
+        opacity: 1;                  /* Fully opaque */
+        transform: translateY(0);    /* Move to the original position */
+    }
+}
+
+/* css part for the offers section */
+.container3 {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around; 
+    padding: 40px;
+    flex-wrap: wrap; 
+}
+
+/* Card styles */
+.card {
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.9); 
+   background-color: white;
+    margin: 10px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: translateY(-20px); /* Lift card up on hover */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Darker shadow on hover */
+}
+
+/* Card body styles */
+.card-body {
+    padding: 15px; 
+}
+
+/* Card title and subtitle */
+.card-title {
+    font-family: 'Verdana', sans-serif; /* Different font family for the title */
+    font-size: 1.25rem; /* Larger font size for title */
+    color: #333; /* Darker color for title */
+    margin-bottom: 10px; /* Margin below the title */
+}
+
+.card-subtitle {
+    font-family: 'Georgia', serif; /* Different font family for the subtitle */
+    font-size: 1rem; /* Font size for subtitle */
+    color: #666; /* Lighter color for subtitle */
+    margin-bottom: 10px; /* Margin below the subtitle */
+}
+
+.card-text {
+    font-size: 0.875rem; /* Font size for text */
+    color: #444; /* Text color */
+    margin-bottom: 15px; /* Margin below the text */
+}
+
+/* Card links */
+.card-link {
+    color: #398ee8; /* Link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text for links */
+}
+
+.card-link:hover {
+    text-decoration: underline; /* Underline on hover */
+}

@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpapers.com/images/featured/farmhouse-4ompwdqywm6zht8d.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.choice-container, .form-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    width: 300px;
+    text-align: center;
+    background-color: rgba(204, 235, 176, 0.2);
+    /* background-image: url('https://plus.unsplash.com/premium_photo-1682050733502-f58b7f499490?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3VtbWVyJTIwbGVhdmVzfGVufDB8fDB8fHww'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn, .btn-secondary {
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    width: 300px;
+}
+
+.btn-secondary {
+    background-color: #f44336;
+    color: white;
+    width: 70px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.btn-secondary:hover {
+    background-color: #e53935;
+}
